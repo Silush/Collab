@@ -3,7 +3,7 @@
 Nível N2 aprovado pelo Sam em 12/11/2026 para mensagens fixas. Nada está cadastrado. Cada rotina só vira tarefa agendada depois do OK de fase.
 
 ## Onde roda
-As rotinas rodam no Mac do Sam (tarefas agendadas do app Claude Desktop), porque o token do Telegram fica só lá. O envio usa `scripts/telegram-enviar.sh`.
+As rotinas rodam no Mac do Sam (tarefas agendadas do app Claude Desktop), porque o token do Telegram fica só lá. O envio usa `~/.collab/telegram-enviar.sh`.
 
 ## Rotina 1: Resumo do dia (seg a sáb, 8h, Haiku)
 
@@ -13,7 +13,7 @@ Você é o Gandalf, chefe de gabinete da Collab Agêntica. Leia CLAUDE.md e agen
 1. Leia, só leitura: agenda de hoje (Google Calendar), posts de hoje e itens aguardando aprovação nos cockpits (ArtifactData: itens e revisao), cards vencidos ou para hoje no quadro Collab Tech (Trello).
 2. Monte UMA mensagem no formato do agentes/gandalf.md: título "🧙 Gandalf · Resumo do dia · DD/MM", blocos "Precisa de você", "Hoje" e "Alertas", máximo 15 linhas, fechando com "Próximo passo".
 3. REGRAS DE CONTEÚDO: nada de valores financeiros, nome de cliente ou nome de lead (só quantidades), nenhum dado pessoal. Em dúvida, omita o item.
-4. Envie com scripts/telegram-enviar.sh (HTML do Telegram).
+4. Envie com ~/.collab/telegram-enviar.sh (HTML do Telegram).
 5. Registre no log "Log Collab Agêntica" (Notion): data e hora, quem pediu (rotina), agente Gandalf, ação, fontes lidas, resultado, pendência.
 6. Se nada mudou e não há pendência, envie só "Sem pendências hoje" com o próximo passo. Se falhar, não reenvie em loop: registre o erro.
 ```
@@ -37,7 +37,8 @@ Você é o Gandalf. Uma rotina falhou ou um post não saiu. Envie UMA mensagem "
 ```
 
 ## Antes de ligar
-1. Sam cadastra o token novo no Mac e revoga o que apareceu no chat
-2. Teste do script (`scripts/telegram-enviar.sh`) no Mac
-3. OK de fase do Sam para as rotinas 1, 2 e 3
+1. Token novo gravado no Mac e o antigo revogado (feito em 12/11)
+2. Teste do script `~/.collab/telegram-enviar.sh` no Mac (feito em 12/11, mensagem chegou ao grupo)
+3. OK de fase do Sam para as rotinas 1, 2 e 3 (dado em 12/11)
+4. Base "Log Collab Agêntica" criada no Notion (pendente)
 4. Medir consumo por 2 semanas antes de ligar as demais

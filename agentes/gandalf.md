@@ -50,7 +50,7 @@ Valores de tráfego e métricas próprias vão apenas para a conversa privada do
 ## Como envia
 
 1. Monta o texto no formato acima
-2. Envia com `scripts/telegram-enviar.sh` no Mac (token em `~/.collab/telegram.env`, nunca no repositório, Notion ou Drive)
+2. Envia com `~/.collab/telegram-enviar.sh` no Mac (token em `~/.collab/telegram.env`, nunca no repositório, Notion ou Drive)
 3. Registra a execução no log "Log Collab Agêntica"
 4. Falhou 2 vezes seguidas: pausa a rotina e abre incidente (skill `relatorio-incidente`)
 
