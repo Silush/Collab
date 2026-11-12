@@ -39,6 +39,17 @@ Regra: ligar 2 ou 3 rotinas por vez. Rotina com 2 falhas seguidas pausa e vira i
 - Redes sociais sendo alimentadas
 - Collab e Samora crescendo
 
+## Andamento em 12/11/2026
+
+| Item | Situação |
+|---|---|
+| Bot do Telegram (Gandalf) | Token novo, teste manual e script no Mac funcionando |
+| Log no Notion | Recebendo linhas das rotinas |
+| Gandalf (N2 em mensagens fixas) | Aprovado. Rotinas rodaram: leem e montam certo |
+| Envio automático ao Telegram | Bloqueado pela rede do agente (403). Liberação em teste. Plano B pronto em `docs/telegram-caixa-de-saida.md` |
+| Faramir (auditor) | Rascunho em `agentes/faramir.md` |
+| Trello "Produção de Conteúdo Collab" | Lido pelo Chrome do Mac (o conector não enxerga, o Sam é convidado) |
+
 ## Pendências abertas
 
 | Item | Quem |
