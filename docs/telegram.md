@@ -6,8 +6,9 @@ Substitui o Fox da Torre. A função passa para o **Gandalf** (chefe-de-gabinete
 
 | Tema | Decisão |
 |---|---|
-| Destino | Grupo "Collab Gestão" |
-| Bot | Novo, criado pelo Sam no BotFather, nome "Gandalf Collab" |
+| Destino | Grupo "Collab Gestão" (confirmado ativo pelo Sam em 12/11) |
+| Bot | Reaproveitar o `torrecollab_avisos_bot`, que o Sam diz ainda existir. Renomear para "Gandalf Collab" e gerar token novo |
+| Voz | Gandalf 🧙 assina as mensagens. Uma voz só, sem agente Fox separado |
 | Torre | Desligada de vez. A rotina do Fox sai com ela |
 | Formato | Organizado, com quebra de linha, títulos em negrito e listas. Nada bagunçado |
 
@@ -57,15 +58,17 @@ Regras: português do Brasil, sem travessão, sempre terminar com o próximo pas
 
 Por que no Mac: o Telegram exige o token no endereço da chamada. O token fica só no Mac, em arquivo local fora do repositório. Nunca no chat, no Notion, no Drive ou no repositório.
 
-## Como o Sam cria o bot (5 minutos)
+## Como o Sam ajusta o bot (5 minutos)
 
 1. No Telegram, abra a conversa com **@BotFather**
-2. Envie `/newbot`
-3. Nome: `Gandalf Collab`
-4. Usuário: precisa terminar em `bot`, exemplo `gandalf_collab_bot` (se estiver ocupado, tente outro)
-5. O BotFather devolve um **token**. Não cole em nenhum lugar fora do Mac
-6. Abra o grupo "Collab Gestão", adicione o bot como membro
-7. Avise "bot criado". O cadastro do token e do grupo é feito no Mac
+2. Envie `/mybots` e escolha `torrecollab_avisos_bot`
+3. Edit Bot, Edit Name, nome `Gandalf Collab`
+4. API Token, **Revoke current token**. Isso gera um token novo. Motivo: o token antigo ficou em texto aberto numa planilha. Guarde o novo só no Mac
+5. Opcional: Edit Botpic (foto do Gandalf) e Edit About
+6. Confirme que o bot é membro do grupo "Collab Gestão"
+7. Avise "bot ajustado". O cadastro do token e do grupo é feito no Mac
+
+Se o BotFather disser que o bot não existe (o Notion registra que foi apagado em 03/11), crie um novo com `/newbot`, nome `Gandalf Collab`, usuário terminando em `bot`.
 
 ## Onde cada coisa roda hoje
 
@@ -94,7 +97,7 @@ Mensagem recebida pelo Telegram nunca vira aprovação automática de e-mail, co
 | Grupo | Em 02/11 o Sam disse que o grupo do Telegram não estava mais ativo |
 
 Consequências:
-- Não há nada técnico a migrar. O bot novo (Gandalf Collab) é o único canal.
-- Confirmar se o grupo "Collab Gestão" está ativo ou se será criado um grupo novo.
+- O Sam diz que o bot ainda existe. Se existir, vira o Gandalf Collab com token novo. Se não existir, cria-se um novo.
+- Grupo "Collab Gestão" confirmado ativo.
 - Regra nova: token nunca em planilha, Notion, Drive ou repositório. Só em arquivo local no Mac.
 - A planilha antiga continua no Drive. Não foi aberta nem lida (tem dados pessoais de leads). Sugestão: o Sam arquiva a planilha.

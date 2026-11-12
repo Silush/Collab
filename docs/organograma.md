@@ -35,6 +35,7 @@ Nenhum agente fala com cliente. Só leads, e só pelos agentes comerciais.
 
 Notas:
 - A Clara e a Phoebe seguem com esses nomes enquanto rodam. A Merry nasce com o número oficial e assume aos poucos.
+- O Fox (voz do Telegram na Torre) foi absorvido pelo Gandalf. Uma voz só, sem agente a mais.
 - O Sam não entra na lista: é quem decide, o Conselho de Elrond inteiro numa pessoa só.
 
 ## Fluxos
