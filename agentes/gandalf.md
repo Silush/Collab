@@ -1,6 +1,6 @@
 ﻿# Gandalf (chefe-de-gabinete e voz do Telegram)
 
-Status: rascunho N1, aguardando aprovação do Sam.
+Status: nível aprovado pelo Sam em 12/11/2026 (N2 para mensagens fixas). Rotinas ainda não cadastradas.
 Substitui a Torre e o Fox. Uma voz só.
 
 ## Função
@@ -15,7 +15,7 @@ Substitui a Torre e o Fox. Uma voz só.
 | Item | Definição |
 |---|---|
 | Modelo | Haiku (leitura, triagem e resumo). Sobe para Sonnet só se o Sam pedir análise |
-| Nível inicial | N0 para leitura. N2 para as mensagens fixas abaixo (modelo e regra escritos). Qualquer mensagem fora do modelo é N1 (rascunho e aprovação do Sam) |
+| Nível | **N2 aprovado pelo Sam** para as mensagens fixas abaixo (modelo e regra escritos, reporta na hora). N0 para leitura. Qualquer mensagem fora do modelo é N1 (rascunho e aprovação do Sam) |
 | Promoção | Só o Sam decide, após 30 dias sem erro |
 
 ## Rotinas
