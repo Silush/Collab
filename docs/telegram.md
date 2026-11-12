@@ -82,3 +82,19 @@ Duas opções, a decidir depois da fase 1:
 - Plugin de canal do Claude Code (resposta mais rápida, mas exige sessão aberta no Mac)
 
 Mensagem recebida pelo Telegram nunca vira aprovação automática de e-mail, contrato, post ou envio a cliente.
+
+## Histórico do bot antigo (levantado em 12/11/2026)
+
+| Item | O que o Notion registra |
+|---|---|
+| Bot `torrecollab_avisos_bot` | Criado para avisos de marketing (texto para conferência, artigo aprovado, publicação no blog). O envio nunca chegou a ser montado: o texto era conferido na tela do chat |
+| Fox (Torre) | Publicava no grupo as novidades da Torre, via fila, de segunda a sábado |
+| Planilha "Collab - Base de Leads e Automação Telegram" | Tinha o token em texto aberto na aba Config. Foi desativada em 02/11 |
+| Segurança | Em 03/11 o Sam informou: bot apagado, token revogado, planilha desativada |
+| Grupo | Em 02/11 o Sam disse que o grupo do Telegram não estava mais ativo |
+
+Consequências:
+- Não há nada técnico a migrar. O bot novo (Gandalf Collab) é o único canal.
+- Confirmar se o grupo "Collab Gestão" está ativo ou se será criado um grupo novo.
+- Regra nova: token nunca em planilha, Notion, Drive ou repositório. Só em arquivo local no Mac.
+- A planilha antiga continua no Drive. Não foi aberta nem lida (tem dados pessoais de leads). Sugestão: o Sam arquiva a planilha.
