@@ -46,7 +46,7 @@ Regra: ligar 2 ou 3 rotinas por vez. Rotina com 2 falhas seguidas pausa e vira i
 | Bot do Telegram (Gandalf) | Token novo, teste manual e script no Mac funcionando |
 | Log no Notion | Recebendo linhas das rotinas |
 | Gandalf (N2 em mensagens fixas) | Aprovado. Rotinas rodaram: leem e montam certo |
-| Envio automático ao Telegram | Bloqueado pela rede do agente (403). Liberação em teste. Plano B pronto em `docs/telegram-caixa-de-saida.md` |
+| Envio automático ao Telegram | Domínio liberado e testado pelo Sam em 12/11. Falta uma execução de rotina registrada no log para confirmar. Plano B guardado em `docs/telegram-caixa-de-saida.md` |
 | Faramir (auditor) | Rascunho em `agentes/faramir.md` |
 | Trello "Produção de Conteúdo Collab" | Lido pelo Chrome do Mac (o conector não enxerga, o Sam é convidado) |
 
@@ -54,7 +54,9 @@ Regra: ligar 2 ou 3 rotinas por vez. Rotina com 2 falhas seguidas pausa e vira i
 
 | Item | Quem |
 |---|---|
-| Trello não abriu para o Claude pelo link (sem acesso ou quadro não compartilhado com a conta conectada) | Sam libera o acesso |
+| Reativar o Gerenciador de tarefas (pausado pela regra das 2 falhas) e reenviar Resumo e Tarefas | Sam |
+| Encerrar o incidente do envio no log | Gandalf, na próxima execução |
+| Cadastrar as 2 rotinas agendadas (Resumo e Gerenciador) no app Claude Desktop, pasta `~/Collab`, modelo Haiku | Sam |
 | Senha exposta na página "Mude CWSS" | Sam remove e troca |
 | Contratos: incluir uso de IA, além da LGPD | Sam revisa |
 | Etapas de produção do @samoraleal: usar as do cockpit (Ajustar, Revisar, Aprovado, Produção, Agendado, Publicado, Descartado). SDR Instagram, Threads e LinkedIn entram como canais | Ajustar pelo caminho |
