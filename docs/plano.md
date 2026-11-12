@@ -57,6 +57,6 @@ Regra: ligar 2 ou 3 rotinas por vez. Rotina com 2 falhas seguidas pausa e vira i
 | Reativar o Gerenciador de tarefas (pausado pela regra das 2 falhas) e reenviar Resumo e Tarefas | Sam |
 | Encerrar o incidente do envio no log | Gandalf, na próxima execução |
 | Cadastrar as 2 rotinas agendadas (Resumo e Gerenciador) no app Claude Desktop, pasta `~/Collab`, modelo Haiku | Sam |
-| Senha exposta na página "Mude CWSS" | Sam remove e troca |
-| Contratos: incluir uso de IA, além da LGPD | Sam revisa |
+| Página "Mude CWSS" (Notion) com login e senha em texto aberto | Sam informou em 12/11 que não é mais usada. Sugestão: arquivar a página (nunca apagar) |
+| Contratos: incluir uso de IA, além da LGPD | Sam revisa, combinado para depois |
 | Etapas de produção do @samoraleal: usar as do cockpit (Ajustar, Revisar, Aprovado, Produção, Agendado, Publicado, Descartado). SDR Instagram, Threads e LinkedIn entram como canais | Ajustar pelo caminho |
