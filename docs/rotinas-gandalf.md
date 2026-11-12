@@ -5,6 +5,12 @@ Nível N2 aprovado pelo Sam em 12/11/2026 para mensagens fixas. Nada está cadas
 ## Onde roda
 As rotinas rodam no Mac do Sam (tarefas agendadas do app Claude Desktop), porque o token do Telegram fica só lá. O envio usa `~/.collab/telegram-enviar.sh`.
 
+## Pré-requisitos no Mac (descobertos no primeiro teste, 12/11/2026)
+
+1. **Pasta do projeto no Mac.** A rotina precisa achar `CLAUDE.md` e `agentes/gandalf.md`. Clonar o repositório em `~/Collab` e definir essa pasta como pasta de trabalho de cada tarefa agendada.
+2. **Rede.** O primeiro envio falhou com proxy 403 em `api.telegram.org`: o ambiente do agente bloqueia o domínio, embora o Terminal do Sam envie normalmente. Liberar `api.telegram.org` na rede do agente (sandbox) ou permitir a execução de `~/.collab/telegram-enviar.sh` fora do sandbox.
+3. **Log.** A página "Log Collab Agêntica" no Notion já recebe as linhas. Depois pode virar base (tabela).
+
 ## Rotina 1: Resumo do dia (seg a sáb, 8h, Haiku)
 
 ```
