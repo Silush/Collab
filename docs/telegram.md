@@ -7,7 +7,7 @@ Substitui o Fox da Torre. A função passa para o **Gandalf** (chefe-de-gabinete
 | Tema | Decisão |
 |---|---|
 | Destino | Grupo "Collab Gestão" (confirmado ativo pelo Sam em 12/11) |
-| Bot | Reaproveitar o `torrecollab_avisos_bot`, que o Sam diz ainda existir. Renomear para "Gandalf Collab" e gerar token novo |
+| Bot | Reaproveitar o bot antigo, que o Sam diz ainda existir. Nome "Gandalf Collab", usuário `collab_lotr_bot` (definido pelo Sam em 12/11, genérico de propósito) e token novo |
 | Voz | Gandalf 🧙 assina as mensagens. Uma voz só, sem agente Fox separado |
 | Torre | Desligada de vez. A rotina do Fox sai com ela |
 | Formato | Organizado, com quebra de linha, títulos em negrito e listas. Nada bagunçado |
